@@ -1,4 +1,7 @@
-# Course material on Jupyter Notebooks for the CodeRefinery project
+# Jupyter Notebooks lesson
 
-## K. Thor Wikfeldt
+
+
+
+
 
