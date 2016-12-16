@@ -1,9 +1,11 @@
-import math
 import random
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn
-%matplotlib inline
+
+def main():
+    n = 100000
+    x = walk(n)
+    print(x)
+
 
 def step():
     return 1. if random.random() > .5 else -1.
@@ -19,5 +21,5 @@ def walk(n):
             x[i + 1] = x_new
     return x
 
-n = 100000
-x = walk(n)
+if __name__=="__main__":
+    main()
