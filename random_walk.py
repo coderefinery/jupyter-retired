@@ -1,7 +1,13 @@
-import random
 import numpy as np
+
+def main():
+    n = 100000
+    x = walk(n)
+
 def step():
+    import random
     return 1. if random.random() > .5 else -1.
+
 def walk(n):
     x = np.zeros(n)
     dx = 1. / n
@@ -12,5 +18,6 @@ def walk(n):
         else:
             x[i + 1] = x_new
     return x
-n = 100000
-x = walk(n)
+
+if __name__=="__main__":
+    main()
