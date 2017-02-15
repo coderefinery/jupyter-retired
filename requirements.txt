@@ -4,6 +4,6 @@ matplotlib
 pandas
 seaborn
 cython
-fortran-magic
 numba
-ipyparallel
+
+
