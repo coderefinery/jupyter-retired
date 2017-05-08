@@ -1,3 +1,4 @@
+llvmlite==0.17.0
 jupyter
 numpy
 matplotlib
@@ -5,5 +6,3 @@ pandas
 seaborn
 cython
 numba
-
-
