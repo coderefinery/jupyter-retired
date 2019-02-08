@@ -1,5 +1,7 @@
 # Jupyter Notebooks lesson
 
+__**This CodeRefinery course material on Jupyter Notebooks has been obsoleted. The new material is at https://github.com/coderefinery/jupyter**__
+
 This is an introductory course on Jupyter Notebooks. It is composed of the following 
 interactive lessons:
 
